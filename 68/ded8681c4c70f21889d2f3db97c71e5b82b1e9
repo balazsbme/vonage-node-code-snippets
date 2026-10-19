@@ -1,0 +1,33 @@
+voice/make-an-outbound-call-with-call-screener.js
+  s_fa31b57043dfc1::t_2efc10a8fab654 24-30,41-46
+  s_fa31b57043dfc1::t_e1201b1337bd46 31-40
+  s_1fda4e605ea26e::t_33054b4458e3d9 1-23,47-63,66-67,70-79,81-82
+  s_fa31b57043dfc1::t_a35bc26770668a 80
+  s_fa31b57043dfc1::t_aab7e97522ba07 64-65,68-69
+.env-example
+  s_1fda4e605ea26e::t_cc6544c81d6834 157
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "68ded8681c4c70f21889d2f3db97c71e5b82b1e9",
+  "prompts": {},
+  "sessions": {
+    "s_1fda4e605ea26e": {
+      "agent_id": {
+        "tool": "kiro",
+        "id": "sess_88e16ea3-7eab-463d-b453-0da9abdad42e",
+        "model": "auto"
+      },
+      "human_author": null
+    },
+    "s_fa31b57043dfc1": {
+      "agent_id": {
+        "tool": "kiro",
+        "id": "sess_32ca9c69-3eb4-4cf2-8c7a-c0f37c226d50",
+        "model": "auto"
+      },
+      "human_author": null
+    }
+  }
+}
