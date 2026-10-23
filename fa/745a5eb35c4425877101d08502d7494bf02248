@@ -1,0 +1,21 @@
+voice/make-an-outbound-call-with-call-screener.js
+  s_862f6443eb36ff::t_231afbb516fe58 7
+.env-example
+  s_862f6443eb36ff::t_af4fea25bbe180 157
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fa745a5eb35c4425877101d08502d7494bf02248",
+  "prompts": {},
+  "sessions": {
+    "s_862f6443eb36ff": {
+      "agent_id": {
+        "tool": "kiro",
+        "id": "sess_019f8022-99a6-4fdc-a9f7-9ec57d51d3ac",
+        "model": "auto"
+      },
+      "human_author": "Balazs Nemeth <balazs.nemeth@vonage.com>"
+    }
+  }
+}
