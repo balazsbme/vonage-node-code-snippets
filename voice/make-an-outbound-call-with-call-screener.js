@@ -4,7 +4,7 @@ const VONAGE_APPLICATION_ID = process.env.VONAGE_APPLICATION_ID;
 const VONAGE_PRIVATE_KEY = process.env.VONAGE_PRIVATE_KEY;
 const VOICE_TO_NUMBER = process.env.VOICE_TO_NUMBER;
 const VONAGE_VIRTUAL_NUMBER = process.env.VONAGE_VIRTUAL_NUMBER;
-const VOICE_EVENT_BASE_URL = process.env.VOICE_EVENT_BASE_URL;
+const VOICE_EVENT_URL = process.env.VOICE_EVENT_URL;
 const port = process.env.PORT || 3000;
 
 const express = require('express');
@@ -69,7 +69,8 @@ app.listen(port, () => {
         timeout: 60,
       },
     ],
-    eventUrl: [`${VOICE_EVENT_BASE_URL}/webhooks/events`],
+    // VOICE_EVENT_URL must point at the POST /webhooks/events route above
+    eventUrl: [VOICE_EVENT_URL],
     advancedMachineDetection: {
       behavior: 'continue',
       mode: 'default',
